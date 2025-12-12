@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Home</title>
+  <title id="inicio_page"></title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -49,16 +49,27 @@
         <h1 class="sitename">RLA</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+<nav id="navmenu" class="navmenu">
+  <ul>
+    <li><a href="index.html" class="active" id="inicio"></a></li>
+    <li><a href="about.html" id="sobreMi"></a></li>
+    <li><a href="resume.html" id="Resumen"></a></li>
+    <li><a href="portfolio.html" id="Portafolio"></a></li>
+    <li><a href="contact.html" id="Contacto"></a></li>
+    
+    <li class="dropdown">
+      <a href="#" id="lang-toggle" data-current-lang="es">
+        <i class="bi bi-globe"></i> <span id="current-lang-text">ES</span> 
+        <i class="bi bi-chevron-down toggle-dropdown"></i>
+      </a>
+      <ul>
+        <li><a href="#" class="lang-option" data-lang="es">Español (ES)</a></li>
+        <li><a href="#" class="lang-option" data-lang="en">English (EN)</a></li>
+      </ul>
+    </li>
+    </ul>
+  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
 
     </div>
   </header>
@@ -72,8 +83,8 @@
 
       <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <h2>Rogelio Luis Almazán</h2>
-        <p>I'm <span class="typed" data-typed-items="Full Stack, Data Analyst, Engineer"></span><span
-            class="typed-cursor typed-cursor--blink"></span></p>
+<p id="soy"><span class="typed" data-typed-items="Full Stack, Data Analyst, Engineer"></span><span
+    class="typed-cursor typed-cursor--blink"></span></p>
         <div class="social-links">
 
           <a href="https://github.com/Roger-LA"><i class="bi bi-github"></i></a>
@@ -89,15 +100,14 @@
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">Rogelio Luis Almazán</h3>
-      <p></p>
+      <p id="footerD"></p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/Roger-LA"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/rogelio-la-mx/"><i class="bi bi-linkedin"></i></a>
-
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Rogelio Luis Almazán</strong> <span>All Rights
+          <span>Copyright</span> <strong class="px-1 sitename">RLA</strong> <span>All Rights
             Reserved</span>
         </div>
         <div class="credits">
@@ -132,6 +142,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/info.js"></script>
 
 </body>
 

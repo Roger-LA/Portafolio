@@ -1,0 +1,357 @@
+{
+    "es": {
+        "menu_ids": {
+            "inicio": "Inicio",
+            "sobreMi": "Sobre Mí",
+            "Resumen": "Resumen",
+            "Portafolio": "Portafolio",
+            "Contacto": "Contacto"
+        },
+        "index_page": {
+            "inicio_page": "Inicio",
+            "index_page": {
+                "soy": "Soy <span class=\"typed\" data-typed-items=\"Desarrollador Full Stack, Analista de Datos, Ingeniero\"></span><span class=\"typed-cursor typed-cursor--blink\"></span>"
+            },
+            "portfolio_page": {
+                "page_title_ids": {
+                    "portafolioE": "Portafolio",
+                    "portafolioD": "Ejemplos de cómo aplico el Análisis de Datos y  Full Stack para generar resultados de negocio medibles.",
+                    "todos": "Todos",
+                    "portafolioB": "Portafolio"
+                },
+                "portfolio_item_ids": {
+                    "grano_clickD": "Desarrollo Full Stack. Lógica de pagos recurrentes y backend con **Java** y MySQL.",
+                    "aribnb": "Modelado Predictivo para precios de Airbnb en NY",
+                    "aribnbD": "EDA y ML sobre precios de Airbnb en el area de NY.",
+                    "clustering": "Análisis de Clustering de Pingüinos",
+                    "clusteringD": "Implementación de algoritmo K-Means en Python para agrupar especies basado en características morfológicas.",
+                    "proyecto3": "",
+                    "proyecto3D": "",
+                    "proyecto4": "",
+                    "proyecto4D": ""
+                }
+            },
+            "sobreMi_page": {
+                "sobre_mi": {
+                    "sobreMiE": "Sobre Mí",
+                    "sobreMiD": "Soy Rogelio Luis Almazán. Mi carrera es un reflejo de mi filosofía de vida:<strong> nunca dejar de aprender.</strong> Me formé como Ingeniero Mecánico y Eléctrico, pero mi pasión por los retos me llevó a pivotar hacia la Ciencia de Datos y el Desarrollo Full Stack. Disfruto profundamente enfrentar nuevos desafíos y siempre busco el camino más innovador para optimizar procesos.",
+                    "sobreMiT": "Full Stack & Analista de Datos.",
+                    "sobreMiTD": "Mi formación me otorgó un rigor analítico fundamental para desglosar problemas complejos. Esta mentalidad de ingeniero es la base de mi enfoque en el desarrollo de software y la ciencia de datos, buscando siempre la eficiencia y la escalabilidad.",
+                    "sobreMiF": "Aplico una autodisciplina constante, característica de la ingeniería, para construir arquitecturas digitales robustas y orientadas a resultados. Mi motor es la evolución tecnológica continua, lo que me impulsa a explorar nuevos aires en tecnología, desde el Machine Learning hasta las soluciones de infraestructura en la nube.",
+                    "inicioL": "Inicio",
+                    "sobreMiL": "Sobre Mi"
+                },
+                "datos_personales": {
+                    "etiqueta_cumpleanos": "Cumpleaños:",
+                    "valor_cumpleanos": "29 de julio de 1999",
+                    "etiqueta_sitio": "Sitio Web:",
+                    "valor_sitio": "roger-la.github.io/Portafolio/",
+                    "etiqueta_telefono": "Teléfono:",
+                    "valor_telefono": "+52 722 25 37 589",
+                    "etiqueta_residencia": "Residencia:",
+                    "valor_residencia": "CDMX, México.",
+                    "etiqueta_edad": "Edad:",
+                    "valor_edad": "26",
+                    "etiqueta_grado": "Grado Actual:",
+                    "valor_grado": "Ingeniero Mécanico y Eléctrico(IMeI)",
+                    "etiqueta_email": "Email:",
+                    "valor_email": "lual.rogelio@gmail.com",
+                    "etiqueta_consultoria": "Consultoría:",
+                    "valor_consultoria": "Disponible"
+                },
+                "habilidades": {
+                    "habilidades": "Habilidades",
+                    "mi": "Mi",
+                    "stack": "Stack",
+                    "stack_1": "Python(Data Science, Fast API)",
+                    "stack_2": "SQL & Base de Datos(MySQL, PostgreSQL)",
+                    "stack_3": "JavaScript / Frontend",
+                    "stack_4": "Machine Learning & Modelado Predictivo",
+                    "stack_5": "JAVA",
+                    "stack_6": "CLOUD Infraestructure(Azure, OCI, AWS)"
+                },
+                "intereses": {
+                    "intereses": "Intereses",
+                    "miFoco": "Mi Foco",
+                    "profesional": "Profesional",
+                    "foco1": "Arquitectura Cloud",
+                    "foco2": "Inteligencia Artificial(IA)",
+                    "foco3": "Optimización de Procesos",
+                    "foco4": "Consultoría Estratégica",
+                    "foco5": "Deep Learning",
+                    "foco6": "Diseño Web",
+                    "foco7": "Investigación Continua",
+                    "foco8": "Soluciones Híbridas",
+                    "foco9": "Dirada Pack",
+                    "foco10": "Moton Ideal",
+                    "foco11": "Verdo Park",
+                    "foco12": "Flavor Nivelanda"
+                }
+            },
+            "contacto_pagina": {
+                "contactame": "Contáctame",
+                "contactameD": "Estoy siempre abierto a discutir nuevos proyectos, oportunidades de consultoría. Si tienes un desafío en Data Science, Desarrollo Full Stack, Ingeniería o si quieres optimizar un proceso, no dudes en enviarme un mensaje.",
+                "contactoB": "Contacto"
+            },
+            "info_contacto": {
+                "ubicacion": "Ubicación",
+                "cdmx": "Ciudad de México(CDMX), México",
+                "llamame": "Llamamé",
+                "escribeme": "Escribéme",
+                "perfilesProfesionales": "Perfiles Profesionales"
+            },
+            "resumen_page_data": {
+                "resumen_general": {
+                    "ResumenE": "Resumen",
+                    "ResumenB": "Resumen",
+                    "resumenD": "Consultor con enfoque en Análisis Operacional y Desarrollo Full Stack (Java/Data Science). Impulso la eficiencia y genero soluciones tecnológicas con valor cuantificable.",
+                    "cv_titulo": "Resumen",
+                    "cvD": "Profesional especializado en Análisis de Datos para identificar ineficiencias operacionales y en Desarrollo Full Stack (Java) para construir soluciones. Mi rol principal es la traducción de problemas de negocio a requisitos técnicos, aplicando modelos predictivos y lógica de programación robusta para generar un impacto positivo y cuantificable en la eficiencia y la reducción de costos.",
+                    "cdmx": "Ciudad de México (CDMX), México",
+                    "inicioB": "Inicio"
+                },
+                "formacion_educativa": {
+                    "educacion": "Formación Educativa",
+                    "educacionT1": "Bootcamp Desarrollador Java Full Stack Jr.",
+                    "educacionT1F": "Octubre 2025 - Enero 2026",
+                    "educacionT1N": "Generation México",
+                    "educacionT2": "Ingeniería Mecánica y Eléctrica (Titulado)",
+                    "educacionT2F": "Agosto 2017 - Junio 2024",
+                    "educacionT2N": "Benemérita Universidad Autónoma de Puebla (BUAP)"
+                },
+                "experiencia_laboral": {
+                    "expLaboral": "Experiencia Laboral",
+                    "expLaboralT1": "Asesor Junior / Analista de Procesos",
+                    "expLaboralT1F": "Enero 2023 - Junio 2023",
+                    "expLaboralT1L": "DITCO - BUAP, Puebla, México",
+                    "expLaboralT1D1": "Consultoría y Análisis: Desarrollé un análisis de datos integral (Excel y SQL) que identificó ineficiencias clave.",
+                    "expLaboralT1D2": "Impacto Cuantificable: Logré una reducción de fugas de capital de 2M pesos.",
+                    "expLaboralT1D3": "Optimización TI: Estandarización (100%), optimización (80%) y automatización (60%) de los procesos empresariales.",
+                    "expLaboralT1D4": "Creación de *dashboards* de gestión usando Excel y Power BI para el seguimiento de KPIs.",
+                    "expLaboralT2": "Líder en Optimización Energética / Modelado Predictivo",
+                    "expLaboralT2F": "Enero 2023 - Junio 2023",
+                    "expLaboralT2L": "Centro de Vinculación y Transferencia del Conocimiento - BUAP",
+                    "expLaboralT2D1": "Diseñé e implementé un modelo predictivo en Python para optimizar el consumo eléctrico de un *Rover*.",
+                    "expLaboralT2D2": "Resultados: Mejoré el consumo de batería en un 7% y reduje las pruebas experimentales en un 66%.",
+                    "expLaboralT2D3": "Desarrollo e implementación del sistema eléctrico completo del prototipo."
+                },
+                "footer": {
+                    "footerD": "Integrando análisis de datos y desarrollo tecnológico para la consultoría."
+                },
+                "btn_descargar_cv": "Descargar CV",
+                "cv_url_es": "assets/cv/Rogelio_Luis_Almazan_ES.pdf",
+                "cv_url_en": "assets/cv/Rogelio_Luis_Almazan_EN.pdf"
+            },
+            "portfolio_GC": {
+                "proyectoBGC": "Grano & Click",
+                "proyectoGC": {
+                    "proyectoGCT": "Grano & Click",
+                    "proyectoGCD": "Diseño y desarrollo integral de la plataforma de e-commerce, liderando el sprint como Scrum Master y asegurando la escalabilidad del backend mediante la integración con servicios cloud. Responsable del flujo completo de la experiencia del usuario (UX/UI) y de la lógica dinámica del front-end.",
+                    "proyectoTInfo": "Información del Proyecto",
+                    "etiqueta_categoria": "<strong>Categoría : </strong>",
+                    "categoriaGC": "Web Design & Full Stack Development",
+                    "etiqueta_cliente": "<strong>Cliente : </strong>",
+                    "clienteGC": "Académico",
+                    "etiqueta_fecha": "<strong>Fecha :</strong>",
+                    "fechaGC": "Diciembre 2025",
+                    "etiqueta_url": "<strong>URL del Proyecto : </strong>",
+                    "urlGC": "roger-la.github.io/Grano-Click/index.html",
+                    "proyectoGCL": "<strong>Logros y Contribuciones Clave : </strong>",
+                    "proyectoGCLD": "<ul><li><strong>Diseño de Producto (Front-End/UI):</strong> Realicé el diseño completo de la página de productos (UX/UI), enfocándome en la usabilidad y la conversión.</li><li><strong>Desarrollo JS & JSON:</strong> Implementé la lógica para la verificación de URLs y la creación dinámica de tarjetas (cards) de productos utilizando `localStorage` y manipulación de JSON.</li><li><strong>Liderazgo (Scrum Master):</strong> Lideré varios sprints, facilitando reuniones diarias, eliminando impedimentos y asegurando la adherencia al marco Scrum para la entrega eficiente del producto.</li><li><strong>Backend & AWS:</strong> Diseño de la arquitectura de bases de datos(SQL) y su vinculación directa a servicios de AWS para garantizar la persistencia y disponibilidad de los datos.</li></ul>"
+                }
+            },
+            "portfolio_ABNY": {
+                "proyectoABNYT": "EDA y Modelado Predictivo: Airbnb en NY",
+                "proyectoABNYD": "Análisis exhaustivo de un dataset de Airbnb en Nueva York para descubrir los factores que influyen en el precio de las rentas y las tendencias de mercado. Incluye la limpieza, el preprocesamiento de datos y el desarrollo de un modelo predictivo para estimar los precios de las propiedades.",
+                "proyectoTInfo": "Información del Proyecto",
+                "etiqueta_categoria": "<strong>Categoría : </strong>",
+                "categoriaABNY": "Data Science & Machine Learning",
+                "etiqueta_cliente": "<strong>Cliente : </strong>",
+                "clienteABNY": "Proyecto Personal",
+                "etiqueta_fecha": "<strong>Fecha : </strong>",
+                "fechaABNY": "Septiembre 2025",
+                "etiqueta_url": "<strong>URL del Proyecto : </strong>",
+                "urlABNY": "roger-la.github.io/ModeladoAribnbNY/",
+                "proyectoABNYL": "<strong>Logros y Contribuciones Clave : </strong>",
+                "proyectoABNYLD": "<ul><li><strong>Análisis Exploratorio de Datos (EDA):</strong> Realicé la limpieza y el preprocesamiento de un dataset de más de 49,000 registros para identificar nulos, outliers y correlaciones entre variables.</li><li><strong>Feature Engineering & Visualización:</strong> Creé nuevas variables (features) y utilicé librerías como Matplotlib y Seaborn para generar visualizaciones que identifican la distribución de precios por tipo de habitación y vecindario (e.g., Brooklyn, Manhattan).</li><li><strong>Modelado Predictivo:</strong> Implementé y evalué un modelo de Machine Learning (ej. Regresión Lineal o Random Forest) para predecir el precio de las rentas diarias basándose en características de la propiedad.</li><li><strong>Conclusiones de Negocio:</strong> Presenté hallazgos clave sobre los factores más influyentes en el precio (ej. ubicación, número de revisiones) para optimizar estrategias de precios.</li></ul>"
+            }
+        }
+    },
+    "en": {
+        "menu_ids": {
+            "inicio": "Home",
+            "sobreMi": "About Me",
+            "Resumen": "Resume",
+            "Portafolio": "Portfolio",
+            "Contacto": "Contact"
+        },
+        "index_page": {
+            "inicio_page": "Home",
+            "index_page": {
+                "soy": "I am <span class=\"typed\" data-typed-items=\"Full Stack Developer, Data Analyst, Engineer\"></span><span class=\"typed-cursor typed-cursor--blink\"></span>"
+            },
+            "portfolio_page": {
+                "page_title_ids": {
+                    "portafolioE": "Portfolio",
+                    "portafolioD": "Examples of how I integrate data analysis (Python) with development solutions (Java) to generate measurable business results.",
+                    "todos": "All",
+                    "portafolioB": "Portfolio"
+                },
+                "portfolio_item_ids": {
+                    "grano_clickD": "Full Stack Development. Logic for recurring payments and backend using **Java** and MySQL.",
+                    "aribnb": "Predictive Modeling for Airbnb Prices in NY",
+                    "aribnbD": "EDA and ML on Airbnb prices in the NY area.",
+                    "clustering": "Penguin Clustering Analysis",
+                    "clusteringD": "Implementation of K-Means algorithm in Python to group species based on morphological characteristics.",
+                    "proyecto3": "",
+                    "proyecto3D": "",
+                    "proyecto4": "",
+                    "proyecto4D": ""
+                }
+            },
+            "sobreMi_page": {
+                "sobre_mi": {
+                    "sobreMiE": "About Me",
+                    "sobreMiD": "I am Rogelio Luis Almazán. My career reflects my life philosophy: <strong>never stop learning.</strong> Trained as an Electrical and Mechanical Engineer, my passion for challenges led me to pivot towards Data Science and Full Stack Development. I deeply enjoy facing new challenges and always seek the most innovative path to optimize processes.",
+                    "sobreMiT": "Full Stack & Data Analyst",
+                    "sobreMiTD": "My training provided me with an analytical rigor essential for breaking down complex problems. This engineering mindset is the foundation of my approach to software development and data science, always aiming for efficiency and scalability.",
+                    "sobreMiF": "I apply constant self-discipline, characteristic of engineering, to build robust and results-oriented digital architectures. My engine is continuous technological evolution, which drives me to explore new areas in technology, from Machine Learning to cloud infrastructure solutions.",
+                    "inicioL": "Home",
+                    "sobreMiL": "About Me"
+                },
+                "datos_personales": {
+                    "etiqueta_cumpleanos": "Birthday:",
+                    "valor_cumpleanos": "July 29, 1999",
+                    "etiqueta_sitio": "Website:",
+                    "valor_sitio": "roger-la.github.io/Portafolio/",
+                    "etiqueta_telefono": "Phone:",
+                    "valor_telefono": "+52 722 25 37 589",
+                    "etiqueta_residencia": "Residence:",
+                    "valor_residencia": "CDMX, Mexico.",
+                    "etiqueta_edad": "Age:",
+                    "valor_edad": "26",
+                    "etiqueta_grado": "Current Degree:",
+                    "valor_grado": "Electrical and Mechanical Engineer (IMeI)",
+                    "etiqueta_email": "Email:",
+                    "valor_email": "lual.rogelio@gmail.com",
+                    "etiqueta_consultoria": "Consulting:",
+                    "valor_consultoria": "Available"
+                },
+                "habilidades": {
+                    "habilidades": "Skills",
+                    "mi": "My",
+                    "stack": "Stack",
+                    "stack_1": "Python(Data Science, Fast API)",
+                    "stack_2": "SQL & Databases(MySQL, PostgreSQL)",
+                    "stack_3": "JavaScript / Frontend",
+                    "stack_4": "Machine Learning & Predictive Modeling",
+                    "stack_5": "JAVA",
+                    "stack_6": "CLOUD Infrastructure(Azure, OCI, AWS)"
+                },
+                "intereses": {
+                    "intereses": "Interests",
+                    "miFoco": "My Professional",
+                    "profesional": "Focus",
+                    "foco1": "Cloud Architecture",
+                    "foco2": "Artificial Intelligence (AI)",
+                    "foco3": "Process Optimization",
+                    "foco4": "Strategic Consulting",
+                    "foco5": "Deep Learning",
+                    "foco6": "Web Design",
+                    "foco7": "Continuous Research",
+                    "foco8": "Hybrid Solutions",
+                    "foco9": "Dirada Pack",
+                    "foco10": "Moton Ideal",
+                    "foco11": "Verdo Park",
+                    "foco12": "Flavor Nivelanda"
+                }
+            },
+            "contacto_pagina": {
+                "contactame": "Contact Me",
+                "contactameD": "I am always open to discussing new projects, consulting opportunities. If you have a challenge in Data Science, Full Stack Development, Engineering, or if you want to optimize a process, feel free to send me a message.",
+                "contactoB": "Contact"
+            },
+            "info_contacto": {
+                "ubicacion": "Location",
+                "cdmx": "Mexico City (CDMX), Mexico",
+                "llamame": "Call Me",
+                "escribeme": "Write Me",
+                "perfilesProfesionales": "Professional Profiles"
+            },
+            "resumen_page_data": {
+                "resumen_general": {
+                    "ResumenE": "Summary",
+                    "ResumenB": "Summary",
+                    "resumenD": "Consultant focused on Operational Analysis and Full Stack Development (Java/Data Science). I drive efficiency and generate technological solutions with quantifiable value.",
+                    "cv_titulo": "Summary",
+                    "cvD": "Professional with an Engineering foundation, specializing in Data Analysis to identify operational inefficiencies and Full Stack Development (Java) to build solutions. My primary role is translating business problems into technical requirements, applying predictive models and robust programming logic to generate a positive and quantifiable impact on efficiency and cost reduction.",
+                    "cdmx": "Mexico City (CDMX), Mexico"
+                },
+                "formacion_educativa": {
+                    "educacion": "Education",
+                    "educacionT1": "Java Full Stack Jr. Developer Bootcamp",
+                    "educacionT1F": "October 2025 - January 2026",
+                    "educacionT1N": "Generation Mexico",
+                    "educacionT2": "Electrical and Mechanical Engineering (Graduated)",
+                    "educacionT2F": "August 2017 - June 2024",
+                    "educacionT2N": "Benemérita Universidad Autónoma de Puebla (BUAP)"
+                },
+                "experiencia_laboral": {
+                    "expLaboral": "Work Experience",
+                    "expLaboralT1": "Junior Consultant / Process Analyst",
+                    "expLaboralT1F": "January 2023 - June 2023",
+                    "expLaboralT1L": "DITCO - BUAP, Puebla, Mexico",
+                    "expLaboralT1D1": "Consulting and Analysis: Developed a comprehensive data analysis (Excel and SQL) that identified key inefficiencies.",
+                    "expLaboralT1D2": "Quantifiable Impact: Achieved a reduction in capital leaks of 2M pesos.",
+                    "expLaboralT1D3": "IT Optimization: Standardization (100%), optimization (80%), and automation (60%) of business processes.",
+                    "expLaboralT1D4": "Creation of management *dashboards* using Excel and Power BI for KPI tracking.",
+                    "expLaboralT2": "Energy Optimization Leader / Predictive Modeling",
+                    "expLaboralT2F": "January 2023 - June 2023",
+                    "expLaboralT2L": "Knowledge Transfer and Linkage Center - BUAP",
+                    "expLaboralT2D1": "Designed and implemented a predictive model in Python to optimize the electrical consumption of a *Rover*.",
+                    "expLaboralT2D2": "Results: Improved battery consumption by 7% and reduced experimental tests by 66%.",
+                    "expLaboralT2D3": "Development and implementation of the prototype's complete electrical system."
+                },
+                "btn_descargar_cv": "Download CV",
+                "cv_url_es": "assets/cv/Rogelio_Luis_Almazan_ES.pdf",
+                "cv_url_en": "assets/cv/Rogelio_Luis_Almazan_EN.pdf"
+            },
+            "portfolio_GC": {
+                "proyectoBGC": "Grano & Click",
+                "proyectoGC": {
+                    "proyectoGCT": "Grano & Click",
+                    "proyectoGCD": "Full-stack design and development of the e-commerce platform, leading the sprint as Scrum Master and ensuring backend scalability through integration with cloud services. Responsible for the complete user experience (UX/UI) flow and front-end dynamic logic.",
+                    "proyectoTInfo": "Project Information",
+                    "etiqueta_categoria": "<strong>Category : </strong>",
+                    "categoriaGC": "Web Design & Full Stack Development",
+                    "etiqueta_cliente": "<strong>Client : </strong>",
+                    "clienteGC": "Academic",
+                    "etiqueta_fecha": "<strong>Date : </strong>",
+                    "fechaGC": "December 2025",
+                    "etiqueta_url": "<strong>Project URL : </strong>",
+                    "urlGC": "roger-la.github.io/Grano-Click/index.html",
+                    "proyectoGCL": "<strong>Key Achievements and Contributions : </strong>",
+                    "proyectoGCLD": "<ul><li><strong>Product Design (Front-End/UI):</strong> Executed the complete design of the product page (UX/UI), focusing on usability and conversion.</li><li><strong>JS & JSON Development:</strong> Implemented logic for URL verification and dynamic card creation using `localStorage` and JSON manipulation.</li><li><strong>Leadership (Scrum Master):</strong> Led several sprints, facilitating daily meetings, eliminating impediments, and ensuring adherence to the Scrum framework for efficient product delivery.</li><li><strong>Backend & AWS:</strong> Designed the SQL database architecture and its direct link to AWS services to ensure data persistence and availability.</li></ul>"
+                }
+            },
+            "portfolio_ABNY": {
+                "proyectoABNYT": "EDA & Predictive Modeling: Airbnb in NY",
+                "proyectoABNYD": "Comprehensive analysis of an Airbnb dataset in New York to discover factors influencing rental pricing and market trends. Includes data cleaning, preprocessing, and the development of a predictive model to estimate property prices.",
+                "proyectoTInfo": "Project Information",
+                "etiqueta_categoria": "<strong>Category : </strong>",
+                "categoriaABNY": "Data Science & Machine Learning",
+                "etiqueta_cliente": "<strong>Client : </strong>",
+                "clienteABNY": "Personal Project",
+                "etiqueta_fecha": "<strong>Date : </strong>",
+                "fechaABNY": "September 2025",
+                "etiqueta_url": "<strong>Project URL : </strong>",
+                "urlABNY": "roger-la.github.io/ModeladoAribnbNY/",
+                "proyectoABNYL": "<strong>Key Achievements and Contributions : </strong>",
+                "proyectoABNYLD": "<ul><li><strong>Exploratory Data Analysis (EDA):</strong> Performed cleaning and preprocessing on a dataset of over 49,000 records to identify null values, outliers, and correlations between variables.</li><li><strong>Feature Engineering & Visualization:</strong> Created new features and utilized libraries like Matplotlib and Seaborn to generate visualizations identifying price distribution by room type and neighborhood (e.g., Brooklyn, Manhattan).</li><li><strong>Predictive Modeling:</strong> Implemented and evaluated a Machine Learning model (e.g., Linear Regression or Random Forest) to predict daily rental prices based on property characteristics.</li><li><strong>Business Conclusions:</strong> Presented key findings on the most influential pricing factors (e.g., location, number of reviews) to optimize pricing strategies.</li></ul>"
+            },
+            "footer": {
+                "footerD": "Integrating data analysis and technological development for consulting."
+            }
+        }
+    }
+}

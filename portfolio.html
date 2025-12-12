@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portafolio - RLA</title>
+  <title id="portafolio">Portafolio - RLA</title>
    
   <meta name="description"
     content="Proyectos destacados en Consultoría TI, Análisis de Datos (Python, Power BI) y Desarrollo Full Stack con Java.">
@@ -13,9 +13,8 @@
     content="Portafolio, Consultoría TI, Analista de Datos, Java Full Stack, Python, SQL, Power BI, Automatización">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <link href="assets/img/Logo_RLA.png" rel="icon">
+  <link href="assets/img/Logo_RLA_B.png" rel="apple-touch-icon">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -50,19 +49,31 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Rogelio LA</h1>
+        <h1 class="sitename">RLA</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+<nav id="navmenu" class="navmenu">
+  <ul>
+    <li><a href="index.html" class="active" id="inicio"></a></li>
+    <li><a href="about.html" id="sobreMi"></a></li>
+    <li><a href="resume.html" id="Resumen"></a></li>
+    <li><a href="portfolio.html" id="Portafolio"></a></li>
+    <li><a href="contact.html" id="Contacto"></a></li>
+    
+    <li class="dropdown">
+      <a href="#" id="lang-toggle" data-current-lang="es">
+        <i class="bi bi-globe"></i> <span id="current-lang-text">ES</span> 
+        <i class="bi bi-chevron-down toggle-dropdown"></i>
+      </a>
+      <ul>
+        <li><a href="#" class="lang-option" data-lang="es">Español (ES)</a></li>
+        <li><a href="#" class="lang-option" data-lang="en">English (EN)</a></li>
+      </ul>
+    </li>
+    </ul>
+  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
+
 
     </div>
   </header>
@@ -75,9 +86,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Portafolio</h1>
-              <p class="mb-0">Ejemplos de cómo integro el análisis de datos (Python) con soluciones de desarrollo (Java)
-                para generar resultados de negocio medibles.</p>
+              <h1 id="portafolioE"></h1>
+              <p class="mb-0" id="portafolioD"></p>
             </div>
           </div>
         </div>
@@ -85,8 +95,8 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portafolio</li>
+            <li><a href="index.html" id="inicioB"></a></li>
+            <li class="current" id="portafolioB"></li>
           </ol>
         </div>
       </nav>
@@ -100,24 +110,22 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Todos</li>
-            <li data-filter=".filter-app">Full Stack(Java)</li>
+            <li data-filter="*" class="filter-active" id="todos"></li>
+            <li data-filter=".filter-app">Full Stack</li>
             <li data-filter=".filter-product">Data Science & ML</li>
-            <li data-filter=".filter-branding">f</li>
-            <li data-filter=".filter-books">Books</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-1.webp" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/G&C/GranoClick.png" class="img-fluid" alt="GranoClick">
                 <div class="portfolio-info">
-                  <h4>E-commerce: Grabo & Click</h4>
-                  <p>Desarrollo Full Stack. Lógica de pagos recurrentes y backend con **Java** y MySQL.</p>
-                  <a href="assets/img/portfolio/portfolio-1.webp" title="App 1" data-gallery="portfolio-gallery-app"
+                  <h4>E-commerce: Grano & Click</h4>
+                  <p id="grano_clickD"></p>
+                  <a href="assets/img/portfolio/G&C/G&CInicio.png" title="Index de Grano & Click" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                  <a href="portafolio_GC.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -125,26 +133,25 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-10.webp" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/ABNY/AirbnbNY.png" class="img-fluid" alt="AirbnbNY">
                 <div class="portfolio-info">
-                  <h4>Modelado Predictivo para precios de Airbnb en NY</h4>
-                  <p>EDA y ML sobre precios de Airbnb en el area de NY.</p>
-                  <a href="assets/img/portfolio/portfolio-10.webp" title="Product 1"
+                  <h4 id="aribnb"></h4>
+                  <p id="aribnbD"></p>
+                  <a href="assets/img/portfolio/ABNY/GraficasABNY.png" title="EDA Airbnb NY"
                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                  <a href="portfolio_AirbnbNY.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Análisis de Clustering de Pingüinos</h4>
-                  <p>Implementación de algoritmo K-Means en Python para agrupar especies basado en características
-                    morfológicas.</p>
+                  <h4 id="clustering"></h4>
+                  <p id="clusteringD"></p>
                   <a href="assets/img/portfolio/portfolio-7.webp" title="Branding 1"
                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
@@ -153,13 +160,13 @@
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4 id="proyecto3"></h4>
+                  <p id="proyecto3D"></p>
                   <a href="assets/img/portfolio/portfolio-4.webp" title="Branding 1"
                     data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
@@ -168,13 +175,13 @@
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4 id="proyecto4"></h4>
+                  <p id="proyecto4"></p>
                   <a href="assets/img/portfolio/portfolio-2.webp" title="App 2" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -196,7 +203,7 @@
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">Rogelio Luis  Almazán</h3>
-      <p>Integrando análisis de datos y desarrollo tecnológico para la consultoría.</p>
+      <p id="footerD"></p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/Roger-LA"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/rogelio-la-mx/"><i class="bi bi-linkedin"></i></a>
@@ -237,6 +244,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+    <script src="assets/js/info.js"></script>
 
 </body>
 

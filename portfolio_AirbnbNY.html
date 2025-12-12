@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title id="contacto">Contacto - RLA</title>
+  <title> RLA | AirbnbNY </title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -38,7 +38,7 @@
   ======================================================== -->
 </head>
 
-<body class="contact-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -49,28 +49,27 @@
         <h1 class="sitename">RLA</h1>
       </a>
 
-<nav id="navmenu" class="navmenu">
-  <ul>
-    <li><a href="index.html" class="active" id="inicio"></a></li>
-    <li><a href="about.html" id="sobreMi"></a></li>
-    <li><a href="resume.html" id="Resumen"></a></li>
-    <li><a href="portfolio.html" id="Portafolio"></a></li>
-    <li><a href="contact.html" id="Contacto"></a></li>
-    
-    <li class="dropdown">
-      <a href="#" id="lang-toggle" data-current-lang="es">
-        <i class="bi bi-globe"></i> <span id="current-lang-text">ES</span> 
-        <i class="bi bi-chevron-down toggle-dropdown"></i>
-      </a>
-      <ul>
-        <li><a href="#" class="lang-option" data-lang="es">Español (ES)</a></li>
-        <li><a href="#" class="lang-option" data-lang="en">English (EN)</a></li>
-      </ul>
-    </li>
-    </ul>
-  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-</nav>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active" id="inicio"></a></li>
+          <li><a href="about.html" id="sobreMi"></a></li>
+          <li><a href="resume.html" id="Resumen"></a></li>
+          <li><a href="portfolio.html" id="Portafolio"></a></li>
+          <li><a href="contact.html" id="Contacto"></a></li>
 
+          <li class="dropdown">
+            <a href="#" id="lang-toggle" data-current-lang="es">
+              <i class="bi bi-globe"></i> <span id="current-lang-text">ES</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li><a href="#" class="lang-option" data-lang="es">Español (ES)</a></li>
+              <li><a href="#" class="lang-option" data-lang="en">English (EN)</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
     </div>
   </header>
@@ -83,8 +82,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1 id="contactame"></h1>
-              <p class="mb-0" id="contactameD"></p>
+              <h1 id="proyectoABNYT"></h1>
+              <p class="mb-0" id="proyectoABNYD"></p>
             </div>
           </div>
         </div>
@@ -93,65 +92,82 @@
         <div class="container">
           <ol>
             <li><a href="index.html" id="inicioB"></a></li>
-            <li class="current" id="contactoB"></li>
+            <li class="current" id="proyectoABNY"></li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-              <i class="icon bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3 id="ubicacion"></h3>
-                <p id="cdmx"></p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
-              <i class="icon bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3 id="llamame"></h3>
-                <p>+52 722 25 37 589</p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
 
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
-              <i class="icon bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3 id="escribeme"></h3>
-                <p>lual.rogelio@gmail.com</p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
+              <div class="swiper-wrapper align-items-center">
 
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
-              <i class="icon bi bi-share flex-shrink-0"></i>
-              <div>
-                <h3 id="perfilesProfesionales"></h3>
-                <div class="social-links">
-                  <a href="https://github.com/Roger-LA"><i class="bi bi-github"></i></a>
-                  <a href="https://www.linkedin.com/in/rogelio-la-mx/"><i class="bi bi-linkedin"></i></a>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ABNY/AirbnbNY2.png" alt="">
                 </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ABNY/GraficasABNY.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ABNY/ModelosPABNY.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ABNY/TransfDatsABNY.png" alt="">
+                </div>
+
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-          </div><!-- End Info Item -->
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3 id="proyectoTInfo"></h3>
+              <ul>
+                <li><span id="etiqueta_categoria"></span><span id="categoriaABNY"></span></li>
+                <li><span id="etiqueta_cliente"></span><span id="clienteABNY"></span></li>
+                <li><span id="etiqueta_fecha"></span><span id="fechaABNY"></span></li>
+                <li><span id="etiqueta_url"></span><a href="https://roger-la.github.io/ModeladoAribnbNY/"><span id="urlABNY"></span></a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2 id="proyectoABNYL"></h2>
+              <p id="proyectoABNYLD"></p>
+            </div>
+          </div>
+
         </div>
+
       </div>
 
-    </section><!-- /Contact Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
@@ -199,7 +215,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-    <script src="assets/js/info.js"></script>
+  <script src="assets/js/info.js"></script>
 
 </body>
 

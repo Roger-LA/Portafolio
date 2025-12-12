@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About - RLA</title>
+  <title>About Me</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -50,15 +50,27 @@
       </a>
 
 <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+  <ul>
+    <li><a href="index.html" class="active" id="inicio"></a></li>
+    <li><a href="about.html" id="sobreMi"></a></li>
+    <li><a href="resume.html" id="Resumen"></a></li>
+    <li><a href="portfolio.html" id="Portafolio"></a></li>
+    <li><a href="contact.html" id="Contacto"></a></li>
+    
+    <li class="dropdown">
+      <a href="#" id="lang-toggle" data-current-lang="es">
+        <i class="bi bi-globe"></i> <span id="current-lang-text">ES</span> 
+        <i class="bi bi-chevron-down toggle-dropdown"></i>
+      </a>
+      <ul>
+        <li><a href="#" class="lang-option" data-lang="es">Español (ES)</a></li>
+        <li><a href="#" class="lang-option" data-lang="en">English (EN)</a></li>
+      </ul>
+    </li>
+    </ul>
+  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
+
 
 
     </div>
@@ -72,18 +84,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Sobre Mí</h1>
-              <p class="mb-0">Soy Rogelio Luis Almazán. Mi carrera es un reflejo de mi filosofía de vida:<strong> nunca
-                  dejar de aprender.</strong> Me formé como Ingeniero Mecánico y
-                Eléctrico, pero mi pasión por los retos me llevó a pivotar hacia la Ciencia de Datos y el Desarrollo
-                Full Stack. Disfruto profundamente enfrentar nuevos desafíos y siempre busco el camino más innovador
-                para optimizar procesos.</p>
-              <p></p>
-              <h1>About</h1>
-              <p class="mb-0">I am Rogelio Luis Almazán. My career is a reflection of my life philosophy in life:
-                <strong>never stop learning.</strong> I trained as a Mechanical and Electrical
-                Engineer, but my passion for challenges led me to pivot towards Data Science and Full Stack Development.
-                I deeply enjoy facing new challenges and always seek the most innovative way to optimize processes.</p>
+              <h1 id="sobreMiE"></h1>
+              <p class="mb-0" id="sobreMiD"></p>         
             </div>
           </div>
         </div>
@@ -91,8 +93,8 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">About</li>
+            <li><a href="index.html" id="inicioL"></a></li>
+            <li class="current" id="sobreMiL"></li>
           </ol>
         </div>
       </nav>
@@ -108,40 +110,39 @@
             <img src="assets/img/profile-img.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2></h2>Full Stack &amp; Data Analytic</h2>
-            <p class="fst-italic py-3">
-              Mi formación me otorgó un rigor analítico fundamental para desglosar problemas complejos. Esta mentalidad
-              de ingeniero es la base de mi enfoque en el desarrollo de software y la ciencia de datos, buscando siempre
-              la eficiencia y la escalabilidad.
+            <h2 id="sobreMiT"></h2>
+            <p class="fst-italic py-3" id="sobreMiTD">
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Cumpleaños:</strong> <span>29 de julio de 1999</span>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_cumpleanos"></strong> <span
+                      id="valor_cumpleanos"></span>
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Sitio Web:</strong>
-                    <span>roger-la.github.io/Portafolio/</span>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_sitio"></strong>
+                    <span id="valor_sitio">roger-la.github.io/Portafolio/</span>
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>+52 722 25 37 589</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Residencia:</strong> <span>CDMX, México.</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_telefono"></strong> <span
+                      id="valor_telefono"></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_residencia"></strong> <span
+                      id="valor_residencia"></span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>26</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Grado Actual:</strong> <span>Ingeniero Mécanico y
-                      Eléctrico(IMeI)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>lual.rogelio@gmail.com</span>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_edad"></strong> <span
+                      id="valor_edad"></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_grado"></strong> <span
+                      id="valor_grado"></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_email"></strong> <span
+                      id="valor_email"></span>
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Consultoría:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="etiqueta_consultoria"></strong> <span
+                      id="valor_consultoria"></span></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3">
-              Aplico una autodisciplina constante, característica de la ingeniería, para construir arquitecturas
-              digitales robustas y orientadas a resultados. Mi motor es la evolución tecnológica continua, lo que me
-              impulsa a explorar nuevos aires en tecnología, desde el Machine Learning hasta las soluciones de
-              infraestructura en la nube.
+            <p class="py-3" id="sobreMiF">
             </p>
           </div>
         </div>
@@ -158,8 +159,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Habilidades</h2>
-        <div><span>Mi</span> <span class="description-title">Stack</span></div>
+        <h2 id="habilidades"></h2>
+        <div><span id="mi"></span> <span class="description-title" id="stack"></span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -169,15 +170,7 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>Python(Data Science, Fast API)</span> <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>SQL & Base de Datos(MySQL, PostgreSQL)</span> <i class="val">90%</i></span>
+              <span class="skill"><span id="stack_1"></span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -185,9 +178,17 @@
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>JavaScript / Frontend</span> <i class="val">70%</i></span>
+              <span class="skill"><span id="stack_2"></span> <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span id="stack_3"></span> <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div><!-- End Skills Item -->
@@ -197,23 +198,23 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>Machine Learning & Modelado Predictivo</span> <i class="val">70%</i></span>
+              <span class="skill"><span id="stack_4"></span> <i class="val">65%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>JAVA</span> <i class="val">60%</i></span>
+              <span class="skill"><span id="stack_5"></span> <i class="val">50%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>CLOUD Infraestructure(Azure, OCI, AWS)</span> <i class="val">60%</i></span>
+              <span class="skill"><span id="stack_6"></span> <i class="val">60%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -233,8 +234,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Intereses</h2>
-        <div><span>Mi Foco</span> <span class="description-title">Profesional</span></div>
+        <h2 id="intereses"></h2>
+        <div><span id="miFoco"></span> <span class="description-title" id="profesional"></span></div>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -244,63 +245,63 @@
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
               <i class="bi bi-eye" style="color: #ffbb2c;"></i>
-              <h3><a href="" class="stretched-link">Arquitectura Cloud</a></h3>
+              <h3><a href="" class="stretched-link" id="foco1"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
               <i class="bi bi-infinity" style="color: #5578ff;"></i>
-              <h3><a href="" class="stretched-link">Inteligencia Artificial(IA)</a></h3>
+              <h3><a href="" class="stretched-link" id="foco2"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
             <div class="features-item">
               <i class="bi bi-mortarboard" style="color: #e80368;"></i>
-              <h3><a href="" class="stretched-link">Optimización de Procesos</a></h3>
+              <h3><a href="" class="stretched-link" id="foco3"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
             <div class="features-item">
               <i class="bi bi-nut" style="color: #e361ff;"></i>
-              <h3><a href="" class="stretched-link">Consultoría Estratégica</a></h3>
+              <h3><a href="" class="stretched-link" id="foco4"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
             <div class="features-item">
               <i class="bi bi-shuffle" style="color: #47aeff;"></i>
-              <h3><a href="" class="stretched-link">Deep Learning</a></h3>
+              <h3><a href="" class="stretched-link"id=foco5></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
             <div class="features-item">
               <i class="bi bi-star" style="color: #ffa76e;"></i>
-              <h3><a href="" class="stretched-link">Diseño Web</a></h3>
+              <h3><a href="" class="stretched-link" id="foco6"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
             <div class="features-item">
               <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
-              <h3><a href="" class="stretched-link">Investigación Continua</a></h3>
+              <h3><a href="" class="stretched-link" id="foco7"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
             <div class="features-item">
               <i class="bi bi-camera-video" style="color: #4233ff;"></i>
-              <h3><a href="" class="stretched-link">Soluciones Híbridas</a></h3>
+              <h3><a href="" class="stretched-link" id="foco8"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
             <div class="features-item">
               <i class="bi bi-command" style="color: #b2904f;"></i>
-              <h3><a href="" class="stretched-link">Dirada Pack</a></h3>
+              <h3><a href="" class="stretched-link" id="foco9"></a></h3>
             </div>
           </div><!-- End Feature Item -->
 
@@ -338,7 +339,7 @@
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">Rogelio Luis Almazán</h3>
-      <p></p>
+      <p id="footerD"></p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/Roger-LA"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/rogelio-la-mx/"><i class="bi bi-linkedin"></i></a>
@@ -381,6 +382,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+    <script src="assets/js/info.js"></script>
 
 </body>
 

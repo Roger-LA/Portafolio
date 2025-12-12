@@ -483,6 +483,7 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  padding-top: 6px;
 }
 
 .footer .social-links a:hover {
@@ -556,6 +557,7 @@ h6 {
   font-size: 24px;
   color: var(--contrast-color);
   line-height: 0;
+  padding-top: 15px;
 }
 
 .scroll-top:hover {
@@ -886,6 +888,7 @@ section,
   font-size: 32px;
   padding-right: 10px;
   line-height: 0;
+  padding-top: 26px;
 }
 
 .interests .features-item h3 {
@@ -1054,6 +1057,15 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+
+#btn_descargar_cv{
+background-color: #059652;
+color: #000000;
+text-transform: uppercase;
+border-color: #059652;
+align-items: center;
+border-radius: 5rem;
+}
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
@@ -1399,6 +1411,7 @@ section,
   transition: all 0.3s ease-in-out;
   border-radius: 50%;
   margin-right: 15px;
+  padding-top: 15px;
 }
 
 .contact .info-item h3 {
