@@ -82,10 +82,10 @@
                     "foco6": "Diseño Web",
                     "foco7": "Investigación Continua",
                     "foco8": "Soluciones Híbridas",
-                    "foco9": "Dirada Pack",
-                    "foco10": "Moton Ideal",
-                    "foco11": "Verdo Park",
-                    "foco12": "Flavor Nivelanda"
+                    "foco9": "Ingeniería de Datos (Data Engineering)",
+                    "foco10": "MLOps y Despliegue de Modelos",
+                    "foco11": "Visualización Avanzada (Storytelling)",
+                    "foco12": "Arquitectura de Microservicios"
                 }
             },
             "contacto_pagina": {
@@ -161,7 +161,7 @@
                 }
             },
             "portfolio_ABNY": {
-                "proyectoABNY" : "EDA y Modelado Airbnb en NY",
+                "proyectoABNY": "EDA y Modelado Airbnb en NY",
                 "proyectoABNYT": "EDA y Modelado Predictivo: Airbnb en NY",
                 "proyectoABNYD": "Análisis exhaustivo de un dataset de Airbnb en Nueva York para descubrir los factores que influyen en el precio de las rentas y las tendencias de mercado. Incluye la limpieza, el preprocesamiento de datos y el desarrollo de un modelo predictivo para estimar los precios de las propiedades.",
                 "proyectoTInfo": "Información del Proyecto",
@@ -261,10 +261,10 @@
                     "foco6": "Web Design",
                     "foco7": "Continuous Research",
                     "foco8": "Hybrid Solutions",
-                    "foco9": "Dirada Pack",
-                    "foco10": "Moton Ideal",
-                    "foco11": "Verdo Park",
-                    "foco12": "Flavor Nivelanda"
+                    "foco9": "Data Engineering",
+                    "foco10": "MLOps and Model Deployment",
+                    "foco11": "Advanced Visualization (Data Storytelling)",
+                    "foco12": "Microservices Architecture"
                 }
             },
             "contacto_pagina": {
@@ -336,7 +336,7 @@
                 }
             },
             "portfolio_ABNY": {
-                "proyectoABNY" : "EDA y Modeling Airbnb in NY",
+                "proyectoABNY": "EDA y Modeling Airbnb in NY",
                 "proyectoABNYT": "EDA & Predictive Modeling: Airbnb in NY",
                 "proyectoABNYD": "Comprehensive analysis of an Airbnb dataset in New York to discover factors influencing rental pricing and market trends. Includes data cleaning, preprocessing, and the development of a predictive model to estimate property prices.",
                 "proyectoTInfo": "Project Information",
@@ -354,7 +354,7 @@
             "footer": {
                 "footerD": "Integrating data analysis and technological development for consulting."
             },
-            "inicioB":"Home"
+            "inicioB": "Home"
         }
     }
 }
