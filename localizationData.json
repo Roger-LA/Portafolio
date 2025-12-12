@@ -161,6 +161,7 @@
                 }
             },
             "portfolio_ABNY": {
+                "proyectoABNY" : "EDA y Modelado Airbnb en NY",
                 "proyectoABNYT": "EDA y Modelado Predictivo: Airbnb en NY",
                 "proyectoABNYD": "Análisis exhaustivo de un dataset de Airbnb en Nueva York para descubrir los factores que influyen en el precio de las rentas y las tendencias de mercado. Incluye la limpieza, el preprocesamiento de datos y el desarrollo de un modelo predictivo para estimar los precios de las propiedades.",
                 "proyectoTInfo": "Información del Proyecto",
@@ -335,6 +336,7 @@
                 }
             },
             "portfolio_ABNY": {
+                "proyectoABNY" : "EDA y Modeling Airbnb in NY",
                 "proyectoABNYT": "EDA & Predictive Modeling: Airbnb in NY",
                 "proyectoABNYD": "Comprehensive analysis of an Airbnb dataset in New York to discover factors influencing rental pricing and market trends. Includes data cleaning, preprocessing, and the development of a predictive model to estimate property prices.",
                 "proyectoTInfo": "Project Information",
@@ -351,7 +353,8 @@
             },
             "footer": {
                 "footerD": "Integrating data analysis and technological development for consulting."
-            }
+            },
+            "inicioB":"Home"
         }
     }
 }
